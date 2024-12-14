@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://java.sun.com/xml/ns/javaee" version="3.0">
+    <display-name>Holiday Filter App</display-name>
+    <servlet>
+        <servlet-name>HolidayFilterServlet</servlet-name>
+        <servlet-class>com.example.HolidayFilterServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>HolidayFilterServlet</servlet-name>
+        <url-pattern>/filter</url-pattern>
+    </servlet-mapping>
+</web-app>
+
